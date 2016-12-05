@@ -148,6 +148,9 @@ ALL CHANGES:
   TEZ-3502. Tez UI: Search in All DAGs page doesn't work with numeric values
   TEZ-3546. Tez UI: On sorting asc - Not Available must be at the top
 
+TEZ-1190: Allow multiple edges between two vertices
+  TEZ-3511. Allow user to create named edge
+
 Release 0.8.5: Unreleased
 
 INCOMPATIBLE CHANGES
