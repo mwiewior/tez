@@ -37,7 +37,7 @@
   <properties>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
     <clover.license>${user.home}/clover.license</clover.license>
-    <hadoop.version>2.6.0</hadoop.version>
+    <hadoop.version>2.6.0-cdh5.8.2</hadoop.version>
     <jetty.version>6.1.26</jetty.version>
     <pig.version>0.13.0</pig.version>
     <javac.version>1.7</javac.version>
@@ -97,6 +97,17 @@
       <url>${distMgmtSnapshotsUrl}</url>
       <layout>default</layout>
     </pluginRepository>
+  <pluginRepository>
+     <id>cloudera</id>
+     <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+     </pluginRepository>
+   </pluginRepositories>
+   <repositories>
+     <repository>
+       <id>cloudera</id>
+       <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+     </repository>
+
   </pluginRepositories>
 
   <dependencyManagement>
